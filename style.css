@@ -1,0 +1,108 @@
+* {
+    background: #FEFDFB;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+.area-texto {
+    height: 400px;
+    border: none;
+    color: #27496D;
+    margin-top: 30px;
+    padding: 8px;
+    text-transform: lowercase;
+    background-color: #F0F2F7;
+    border-radius: 12px;
+}
+::placeholder {
+    color: #27496D;
+}
+.area-texto:focus {
+    outline: none;
+}
+
+.mensaje {
+    height: 630px;
+    background: white;
+    background-image: url("/imagenes/Imagen.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #27496D;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 18px;
+}
+
+.btn-desencriptar,
+.btn-encriptar {
+    background: #E8EEF8;
+    border: none;
+    border-radius: 12px;
+    color: #27496D;
+    cursor: pointer;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-encriptar:hover,
+.btn-desencriptar:hover {
+    background: #C8D6EB;
+}
+
+.copiar {
+    border: none;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 16px;
+    background: #27496D;
+    transition: background-color 0.3s;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.copiar:hover {
+    background: #1A355E;
+}
+
+.info {
+    color: #495057;
+    font-size: 16px;
+}
