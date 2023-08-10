@@ -42,7 +42,6 @@ main {
 .mensaje {
     height: 630px;
     background: white;
-    background-image: url("/imagenes/Imagen.png");
     background-repeat: no-repeat;
     background-position: center;
     border: none;
